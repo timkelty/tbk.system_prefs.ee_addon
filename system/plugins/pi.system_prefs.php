@@ -1,7 +1,7 @@
 <?php
 
 $plugin_info = array(
-						'pi_name'			=> 'TK System Prefs',
+						'pi_name'			=> 'System Prefs',
 						'pi_version'		=> '0.1.0',
 						'pi_author'			=> 'Tim Kelty and Karl Swedberg',
 						'pi_author_url'		=> 'http://geniuscar.com/docs and http://www.learningjquery.com',
