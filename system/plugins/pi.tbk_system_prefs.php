@@ -1,18 +1,18 @@
 <?php
 
 $plugin_info = array(
-						'pi_name'			=> 'System Prefs',
+						'pi_name'			=> 'TBK System Prefs',
 						'pi_version'		=> '0.1.0',
 						'pi_author'			=> 'Tim Kelty and Karl Swedberg',
 						'pi_author_url'		=> 'http://geniuscar.com/docs and http://www.learningjquery.com',
 						'pi_description'	=> 'Use system preferences as variables.',
-						'pi_usage'			=> System_prefs::usage()
+						'pi_usage'			=> Tbk_tbk_system_prefs::usage()
 					);
 
-class System_prefs {
+class Tbk_tbk_system_prefs {
 	var $return_data = '';
 	
-	function System_prefs( $str = '' )
+	function Tbk_tbk_system_prefs( $str = '' )
 	{
 		global $FNS, $TMPL, $PREFS;
 		
@@ -33,7 +33,7 @@ class System_prefs {
 	
 	function usage()
 	{
-		return "{exp:system_prefs}....{/exp:system_prefs}";
+		return "{exp:tbk_system_prefs}....{/exp:tbk_system_prefs}";
 	}
 	
 }
