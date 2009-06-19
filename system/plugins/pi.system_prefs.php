@@ -6,13 +6,13 @@ $plugin_info = array(
 						'pi_author'			=> 'Tim Kelty and Karl Swedberg',
 						'pi_author_url'		=> 'http://geniuscar.com/docs and http://www.learningjquery.com',
 						'pi_description'	=> 'Use system preferences as variables.',
-						'pi_usage'			=> Tk_system_prefs::usage()
+						'pi_usage'			=> System_prefs::usage()
 					);
 
-class Tk_system_prefs {
+class System_prefs {
 	var $return_data = '';
 	
-	function Tk_system_prefs( $str = '' )
+	function System_prefs( $str = '' )
 	{
 		global $FNS, $TMPL, $PREFS;
 		
@@ -33,7 +33,7 @@ class Tk_system_prefs {
 	
 	function usage()
 	{
-		return "{exp:tk_system_prefs}....{/exp:tk_system_prefs}";
+		return "{exp:system_prefs}....{/exp:system_prefs}";
 	}
 	
 }

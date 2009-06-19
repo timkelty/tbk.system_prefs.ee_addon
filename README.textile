@@ -2,7 +2,7 @@ h1. TK System Prefs: An ExpressionEngine Plugin
 
 h2. Usage
 
-@{exp:tk_system_prefs}{system_folder}, {db_hostname}, {made_up_config_var}...{/exp:tk_system_prefs}@
+@{exp:system_prefs}{system_folder}, {db_hostname}, {made_up_config_var}...{/exp:system_prefs}@
 
 Inspired/lifted from the *super replacements* feature in "LG Add Sitename":http://github.com/newism/lg.add_sitename.ee_addon
 
