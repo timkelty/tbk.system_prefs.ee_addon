@@ -6,7 +6,7 @@ h2. Usage
 
 Inspired/lifted from the *super replacements* feature in "LG Add Sitename":http://github.com/newism/lg.add_sitename.ee_addon
 
-Available variables. You may also access any config variable you define in @config.php@:
+You can use any config variable you define in @config.php@, as well as any of the following EE preference variables:
 
 * @{enable_image_resizing}@
 * @{image_resize_protocol}@
