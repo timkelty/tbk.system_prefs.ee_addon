@@ -9,10 +9,10 @@ $plugin_info = array(
 						'pi_usage'			=> Tbk_tbk_system_prefs::usage()
 					);
 
-class Tbk_tbk_system_prefs {
+class Tbk_system_prefs {
 	var $return_data = '';
 	
-	function Tbk_tbk_system_prefs( $str = '' )
+	function Tbk_system_prefs( $str = '' )
 	{
 		global $FNS, $TMPL, $PREFS;
 		
