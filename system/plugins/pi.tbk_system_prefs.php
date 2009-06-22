@@ -6,7 +6,7 @@ $plugin_info = array(
 						'pi_author'			=> 'Tim Kelty and Karl Swedberg',
 						'pi_author_url'		=> 'http://geniuscar.com/docs and http://www.learningjquery.com',
 						'pi_description'	=> 'Use system preferences as variables.',
-						'pi_usage'			=> Tbk_tbk_system_prefs::usage()
+						'pi_usage'			=> Tbk_system_prefs::usage()
 					);
 
 class Tbk_system_prefs {
